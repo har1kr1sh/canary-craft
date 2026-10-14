@@ -1,4 +1,4 @@
-# CanaryCraft — Dynamic Honey-Token & Canary Document Generator (Untested) - [There may be errors] - [Working on it]
+# CanaryCraft — Dynamic Honey-Token & Canary Document Generator [Working on it (In progress)]
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License MIT](https://img.shields.io/badge/license-MIT-green.svg)
