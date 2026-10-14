@@ -1,0 +1,13 @@
+# Secrets and Configs
+config/config.txt
+.env
+
+# Generated Output Files
+output/*.docx
+output/*.env
+output/aws_credentials
+
+# Python Cache
+__pycache__/
+*.py[cod]
+venv/
