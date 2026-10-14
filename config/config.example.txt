@@ -1,0 +1,4 @@
+# CanaryCraft Global Configuration Template
+LISTENER_PORT=8080
+DEFAULT_WEBHOOK_URL=http://localhost:8080
+ALERT_DISCORD_WEBHOOK=your_discord_webhook_url_here
