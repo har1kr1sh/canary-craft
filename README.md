@@ -40,3 +40,35 @@ pip install -r requirements.txt
 
 # Set up local configuration
 cp config/config.example.txt config/config.txt
+```
+
+🚀 Usage & Execution Guide
+1. Launch the Alert Listener Server
+Start the telemetry receiver to monitor for incoming canary trips:
+
+```bash
+python3 main.py --listener
+```
+
+2. Generate Deception Assets (CLI Flags)
+You can target specific honey-tokens using command-line arguments:
+
+```bash
+# Generate a canary Word document pointing to your listener
+python3 main.py --doc --server-url "http://your-listener-ip:8080"
+
+# Generate decoy AWS credentials
+python3 main.py --aws
+
+# Generate a decoy environment variables file
+python3 main.py --env
+```
+
+3. Interactive Menu Mode
+Running python3 main.py without arguments launches an interactive prompt allowing you to select your desired asset generation or start the listener on demand.
+
+👨‍💻 Author
+Hari Krishnan
+
+GitHub: @har1kr1sh
+Role: SOC L2 Analyst | Detection Engineering & Threat Hunting
